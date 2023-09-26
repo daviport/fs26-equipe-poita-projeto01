@@ -1,0 +1,24 @@
+/* Font Padrão e Pesos - 
+    font-family: 'Roboto', sans-serif; 
+    Thin 100
+    light 300
+    Medium 500
+    Regular 400
+    Bold 700
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+/* Fonts Alternativas e Pesos */
+    
+/* Dela Gothic One 400*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dela+Gothic+One&display=swap');
+
+/* Inter 400*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter&display=swap');
+
+/* Signika 600 */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter&family=Raleway&family=Signika:wght@600&display=swap');
+
+/* Montserrat 400 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
