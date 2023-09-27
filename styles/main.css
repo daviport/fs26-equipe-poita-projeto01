@@ -48,19 +48,19 @@ section{
 }
 @keyframes jujubas {
     0%,20%{
-        content: "paixão pela inovação";
+        content: "inovação";
     }
     21%,40%{
-        content: "curiosidade incessante";
+        content: "curiosidade";
     }
     41%,60%{
-        content: "soluções criativas";
+        content: "criatividade";
     }
     61%,80%{
-        content: "transformar ideias";
+        content: "novas ideias";
     }
     81%,100%{
-        content: "crescimento e superação";
+        content: "superação";
     }
 }
 .txt-anime span::after{
