@@ -5,13 +5,13 @@ section{
 .about{
     width: 100%;
     height: 100vh;
-    display: flex;
-    flex-direction: column
+    /* display: flex;
+    flex-direction: column */
     /* background-position: center;
     background-repeat: no-repeat;
     background-size: cover; */
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr) */;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
     align-items: center;
     text-align: center;
     gap: 2rem;
@@ -35,11 +35,11 @@ section{
 }
 .about-img img{
     max-width: 100%;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
 }
 .about-text img{
     max-width: 100%;
-    width: 70%;
-    height: 70%;
+    width: 30%;
+    height: 50%;
 }
