@@ -1,9 +1,9 @@
-let typed = new Typed(".input",{
+/* let typed = new Typed(".input",{
     strings: ['Desenvolvedora', 'Programadora', 'Codificadora'],
     typeSpeed: 70,
     backSpeed: 60,
     loop: true
-})
+}) */
 
 const header = document.querySelector('header');
 

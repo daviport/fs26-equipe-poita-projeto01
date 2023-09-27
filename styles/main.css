@@ -39,6 +39,53 @@ section{
     color: var(--red);
     text-decoration: underline;
 }
+.txt-anime span{
+    position: relative;
+}
+.txt-anime span::before{
+    content: "";
+    animation: jujubas 20s infinite;
+}
+@keyframes jujubas {
+    0%,20%{
+        content: "paixão pela inovação";
+    }
+    21%,40%{
+        content: "curiosidade incessante";
+    }
+    41%,60%{
+        content: "soluções criativas";
+    }
+    61%,80%{
+        content: "transformar ideias";
+    }
+    81%,100%{
+        content: "crescimento e superação";
+    }
+}
+.txt-anime span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 3px solid var(--red);
+    right: -10px;
+    animation: cursor .8s infinite, digitando 20s steps(15) infinite;
+    width: calc(100% + 18px);
+    background-color: var(--bg-color);
+}
+@keyframes cursor {
+    0%{
+        border-left: 3px solid var(--bg-color);
+    }
+}
+@keyframes digitando {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 18px);
+    }
+}
 .home-text p{
     color: var(--gray);
     font-size: 20px;
