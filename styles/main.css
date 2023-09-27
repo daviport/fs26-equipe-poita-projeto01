@@ -72,9 +72,9 @@ section{
     justify-content: center;
     margin-left: 30px;
 }
-.main-btn .btn2 span img{
-    height: 40px;
-    width: 40px;
+.main-btn .btn2 span i{
+    height: 50px;
+    width: 50px;
     background: var(--red);
     color: var(--white);
     font-size: 30px;
@@ -85,6 +85,6 @@ section{
     margin-right: 15px;
     transition: all .42s ease;
 }
-.main-btn .btn2 span img:hover{
+.main-btn .btn2 span i:hover{
     transform: translateY(-5px);
 }
