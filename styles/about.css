@@ -30,6 +30,9 @@ section{
     line-height: 1.2;
     margin: 23px 0;
 }
+.about-text h2 strong {
+    color: var(--red);
+}
 .about-img img{
     max-width: 100%;
     width: 100%;
