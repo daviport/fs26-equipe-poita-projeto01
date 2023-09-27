@@ -8,5 +8,9 @@
 }
 html, body{
     background: var(--bg-color);
+    scrollbar-width: none;
     scroll-behavior: smooth;
+}
+body::-webkit-scrollbar{
+    display: none;
 }
