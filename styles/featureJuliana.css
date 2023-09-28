@@ -1,0 +1,52 @@
+section{
+    padding: 60px 10%;
+}
+
+.juliana{
+    width: 100%;
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+
+.container {
+    height: 70VH;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    padding: 100px;
+}
+
+.descricao {
+    width: 70%;
+    padding: 50px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.picture {
+    width: 30%;
+}
+
+.picture h1 {
+    color:var(--red);
+    padding-top: 20px;
+}
+
+.membro-img {
+    border-radius: 50%;
+    max-width: 100%;
+    width: 250px;
+    height: 250px;
+}
+
