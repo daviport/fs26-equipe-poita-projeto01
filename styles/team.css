@@ -4,17 +4,11 @@ section{
 
 .team{
     width: 100%;
-    height: 100vh;
-    display: flex;
-    /* flex-direction: column; */
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 18rem);
     justify-content: center;
-    flex-wrap: wrap;
-    /* flex-direction: column; */
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* display: grid; */
-    /* grid-template-columns: repeat(5, 1fr); */
     align-items: center;
     text-align: center;
     gap: 1rem;
@@ -34,10 +28,9 @@ section{
 .team-img img:hover{
     transform: scale(1.1);
 }
-
 .team i{
     max-width: 100%;
-    font-size: 32px;
+    font-size: 28px;
     padding: 0.5rem;
     transition: all .42s ease;
 }
