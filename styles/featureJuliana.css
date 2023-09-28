@@ -15,8 +15,6 @@ section{
     align-items: center;
     text-align: center;
     gap: 2rem;
-}
-
 
 .container {
     height: 70VH;
@@ -49,4 +47,3 @@ section{
     width: 250px;
     height: 250px;
 }
-
